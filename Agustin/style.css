@@ -244,6 +244,8 @@ and (min-device-width: 320px)
  {
 
   header {
+    background-image: url(https://i.imgur.com/cOMTsBK.jpg);
+    background-size: cover;
     background-color: rgba(0, 0, 0, 0.295);
     padding: 20px;
     flex-wrap: wrap;
