@@ -213,7 +213,7 @@ div.gallery2 {
 }
   
 div.gallery2:hover {
-    border: 1px solid yellow;
+    border: 1px solid rgb(255, 228, 107);
 
 }
   
@@ -236,6 +236,12 @@ and (min-device-width: 320px)
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+  }
+
+  aside.portfolio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .searchbar {
