@@ -1,0 +1,213 @@
+@import
+url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+header {
+  background-color: rgba(0, 0, 0, 0.295);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+body {
+    background-color: #161616;
+    height: 100%;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+body.home {
+    background-image: url(https://i.imgur.com/cOMTsBK.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #161616;
+    height: 100%;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  }  
+
+.digital {
+    align-self: flex-start;
+  }
+
+.searchbar {
+    list-style: none;
+    display: flex;
+    flex-shrink: 2px;
+  }
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+.title:hover {
+  background: linear-gradient(to right, rgb(121, 224, 255), rgb(255, 228, 107), rgb(255, 117, 131));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 25px;
+    color: rgb(207, 207, 207);
+    position: relative;
+    top: -25px;
+    font-weight: normal;
+  }
+
+h3 {
+    font-size: 40px;
+    color: rgb(121, 224, 255);
+    text-align: center;
+  }
+
+h4 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -40px;
+  }
+
+h5 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -40px;
+    font-weight: normal;
+  }
+
+aside {
+  padding: 20px;
+}
+
+aside.portfolio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+  }
+
+p {
+    text-align: center;
+  }
+
+.button {
+    background-color: rgba(0, 0, 0, 0.616);
+    border: 1px solid rgb(121, 224, 255);
+    color: rgb(121, 224, 255);
+    width: 150px;
+    padding: 20px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.button:hover {
+    border: 1px solid white;
+    color: white;
+  }
+
+ul {
+    color: rgb(255, 228, 107);
+    position: relative;
+    left: 70px;
+  }
+
+.whitetext {
+    color: white;
+    position: relative;
+    font-size: 20px;
+  }
+
+.graytext {
+    color: gray;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 35%;
+  }
+
+.circle {
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  }
+
+.circletiny {
+    object-fit: cover;
+    margin-left: 7px;
+    margin-right: 7px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: inline-start;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    }
+
+div.gallery {
+    margin: 3px;
+    border: 1px solid magenta;
+    float: left;
+    width: 300px;
+    height: 300px;
+
+  }
+  
+div.gallery:hover {
+    border: 1px solid yellow;
+    background: linear-gradient(rgb(121, 224, 255), rgb(255, 228, 107), rgb(255, 117, 131));
+
+  }
+  
+div.gallery img {
+  object-fit: cover;
+
+    width: 300px;
+    height: 300px;
+
+  }
+
+  div.gallery2 {
+    margin: 3px;
+    border: 1px solid magenta;
+    float: left;
+    width: 300px;
+    height: 400px;
+
+  }
+  
+div.gallery2:hover {
+    border: 1px solid yellow;
+
+  }
+  
+div.gallery2 img {
+  object-fit: cover;
+
+    width: 300px;
+    height: 400px;
+
+  }
+
+
+
+
