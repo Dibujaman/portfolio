@@ -226,7 +226,7 @@ div.gallery2 img {
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 720px) {
 
   .searchbar {
     -webkit-flex-flow:column wrap;
