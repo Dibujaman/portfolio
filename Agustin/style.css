@@ -191,11 +191,10 @@ div.gallery img {
 
 div.gallery {
     margin: 3px;
-    border: 1px solid rgb(255, 117, 131);
+    border: 1px solid rgb(121, 224, 255);
     float: left;
     width: 300px;
     height: 300px;
-    display: inline-block;
 
 }
 
@@ -206,13 +205,13 @@ div.gallery:hover img {
   
 div.gallery:hover {
     border: 1px solid white;
-    background-image: linear-gradient(rgb(158, 114, 114), cyan);
+    background-image: linear-gradient(white, cyan);
 
 }
 
 div.gallery2 {
     margin: 3px;
-    border: 1px solid rgb(255, 117, 131);
+    border: 1px solid rgb(121, 224, 255);
     float: left;
     width: 300px;
     height: 400px;
@@ -230,6 +229,12 @@ div.gallery2 img {
     width: 300px;
     height: 400px;
 
+}
+
+.video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen 
