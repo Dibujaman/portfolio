@@ -35,6 +35,10 @@ body.home {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }  
 
+.phonebackground {
+  visibility: hidden;
+}
+
 .digital {
   align-self: flex-start;
 }
@@ -246,8 +250,8 @@ and (min-device-width: 320px)
   .phonebackground {
     object-fit: cover;
 
-    width: auto
-    height: 900px;
+    width: 100%;
+    height: auto;
   }
 
   header {
