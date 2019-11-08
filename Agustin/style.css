@@ -166,7 +166,7 @@ ul {
   border-radius: 50%;
 }
 
-.centered {
+.centered, .lists {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -268,6 +268,10 @@ and (min-device-width: 320px)
 
   .button {
     width: 100%;
+  }
+
+  .lists {
+    display: block;
   }
 
   .logo{
