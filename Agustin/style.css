@@ -242,6 +242,7 @@ and (min-device-width: 320px)
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
   }
 
   .searchbar {
