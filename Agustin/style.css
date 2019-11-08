@@ -1,6 +1,19 @@
 @import
 url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+
+
+@media (min-width: 600px) {
+
+  body.home {
+    background-image: url(https://i.imgur.com/cOMTsBK.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #161616;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  }  
+}
+
 header {
   background-color: rgba(0, 0, 0, 0.295);
   padding: 20px;
@@ -17,11 +30,8 @@ body {
 }
 
 body.home {
-  background-image: url(https://i.imgur.com/cOMTsBK.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+ 
   background-color: #161616;
-  height: 100%;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }  
 
@@ -92,11 +102,18 @@ aside {
 }
 
 aside.portfolio {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 20px 20px;
-  }
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 20px;
+}
+
+.comic {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 20px;
+}
 
 p {
     text-align: center;
@@ -206,5 +223,28 @@ div.gallery2 img {
 
     width: 300px;
     height: 400px;
+
+}
+
+@media (max-width: 600px) {
+
+  .searchbar {
+    -webkit-flex-flow:column wrap;
+    width: 100%;
+    flex-flow: column wrap;
+    padding: 0px;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .logo{
+    text-align: center;
+  }
+
+  .title {
+    text-align: center;
+  }
 
 }
