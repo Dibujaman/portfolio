@@ -254,8 +254,8 @@ div.gallery2 img {
 }
 
 @media screen 
-and (max-device-width: 1400px)
-and (min-device-width: 480px)
+and (max-device-width: 700px)
+and (min-device-width: 400px)
  {
 
   .searchbar {
