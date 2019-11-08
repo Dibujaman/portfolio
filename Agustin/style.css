@@ -197,8 +197,7 @@ div.gallery:hover {
 }
   
 div.gallery img {
-  object-fit: cover;
-
+    object-fit: cover;
     width: 300px;
     height: 300px;
 
@@ -226,33 +225,6 @@ div.gallery2 img {
 
 }
 
-@media (max-width: 720px) {
-
-  .searchbar {
-    -webkit-flex-flow:column wrap;
-    width: 100%;
-    flex-flow: column wrap;
-    padding: 0px;
-  }
-
-  .button {
-    width: 100%;
-  }
-
-  .logo{
-    text-align: center;
-  }
-
-  .title {
-    text-align: center;
-  }
-
-  .graytext {
-    width: 90%;
-  }
-
-}
-
 @media only screen 
 and (max-device-width: 720px)
 and (min-device-width: 320px)
@@ -271,10 +243,12 @@ and (min-device-width: 320px)
 
   .logo{
     text-align: center;
+    justify-content: center;
   }
 
   .title {
     text-align: center;
+    justify-content: center;
   }
 
   .graytext {
