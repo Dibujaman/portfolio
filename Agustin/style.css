@@ -246,6 +246,12 @@ and (min-device-width: 320px)
     height: 400px;
   }
 
+  div.gallery img {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+  }
+
   .searchbar {
     -webkit-flex-flow:column wrap;
     width: 100%;
