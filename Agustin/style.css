@@ -3,7 +3,7 @@ url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 
 
-@media only screen and (min-device-width: 600px) {
+@media only screen and (min-device-width: 720px) {
 
   body.home {
     background-image: url(https://i.imgur.com/cOMTsBK.jpg);
