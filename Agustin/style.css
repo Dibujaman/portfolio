@@ -271,7 +271,8 @@ and (min-device-width: 320px)
   }
 
   .lists {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   .logo{
