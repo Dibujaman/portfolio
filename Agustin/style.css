@@ -242,8 +242,8 @@ and (min-device-width: 320px)
     margin: 3px;
     border: 1px solid rgb(255, 117, 131);
     float: left;
-    width: 50%;
-    height: 50%;
+    width: 400px;
+    height: 400px;
   }
 
   .searchbar {
