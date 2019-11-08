@@ -230,6 +230,15 @@ and (max-device-width: 720px)
 and (min-device-width: 320px)
  {
 
+  header {
+    background-color: rgba(0, 0, 0, 0.295);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
   .searchbar {
     -webkit-flex-flow:column wrap;
     width: 100%;
