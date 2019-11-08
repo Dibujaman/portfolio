@@ -250,7 +250,7 @@ and (min-device-width: 320px)
   .phonebackground {
     object-fit: cover;
 
-    width: 100%;
+    width: 80%;
     height: auto;
   }
 
