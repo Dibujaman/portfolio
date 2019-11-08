@@ -247,4 +247,35 @@ div.gallery2 img {
     text-align: center;
   }
 
+  .graytext {
+    width: 90%;
+  }
+
+}
+
+@media (max-device-width: 800px) {
+
+  .searchbar {
+    -webkit-flex-flow:column wrap;
+    width: 100%;
+    flex-flow: column wrap;
+    padding: 0px;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .logo{
+    text-align: center;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .graytext {
+    width: 90%;
+  }
+
 }
