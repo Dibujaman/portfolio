@@ -270,10 +270,15 @@ and (min-device-width: 320px)
     width: 100%;
   }
 
+  .h6 {
+    position: relative;
+    top: 3;
+  }
+
   .lists {
     display: grid;
     grid-template-columns: 1fr;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
 
   .logo{
