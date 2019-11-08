@@ -274,6 +274,7 @@ and (min-device-width: 320px)
     display: grid;
     grid-template-columns: 1fr;
     padding-bottom: 20px;
+    padding-top: 30px;
   }
 
   .logo{
