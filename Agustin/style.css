@@ -238,11 +238,12 @@ and (min-device-width: 320px)
     align-content: center;
   }
 
-  aside.portfolio {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
+  .gallery {
+    margin: 3px;
+    border: 1px solid rgb(255, 117, 131);
+    float: left;
+    width: 50%;
+    height: 50%;
   }
 
   .searchbar {
