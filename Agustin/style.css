@@ -277,13 +277,6 @@ and (min-device-width: 320px)
     flex-wrap: wrap;
   }
 
-  .title {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
   .graytext {
     width: 90%;
   }
