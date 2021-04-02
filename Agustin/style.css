@@ -101,6 +101,14 @@ h6 {
   padding: 0px;
 }
 
+h1 {
+  font-size: 25px;
+  color: rgb(121, 224, 255);
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+
 aside {
   padding: 20px;
 }
@@ -137,9 +145,28 @@ p {
     cursor: pointer;
 }
 
+.button2 {
+  background-color: rgba(0, 0, 0, 0.616);
+  border: 1px solid rgb(255, 228, 107);
+  color: rgb(255, 228, 107);
+  width: 150px;
+  padding: 20px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 .button:hover {
     border: 1px solid white;
     color: white;
+}
+
+.button2:hover {
+  border: 1px solid white;
+  color: white;
 }
 
 ul {
@@ -157,7 +184,16 @@ ul {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  width: 35%;
+  width: 50%;
+}
+
+.graytext2 {
+  color: gray;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
 }
 
 .circle {
